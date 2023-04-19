@@ -198,6 +198,14 @@ footer {
   color: blue;
   text-shadow: 0 0 5px white;
   border-radius: 0;
+  margin-bottom: 0;
+}
+
+.nuestras-marcas {
+  background-color: black;
+  text-align: center;
+  color: blue;
+  padding: 15px;
 }
 
 .navbar span {
