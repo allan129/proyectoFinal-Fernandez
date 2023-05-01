@@ -9,74 +9,71 @@ html {
 }
 
 /* header {
-  background-color: aquamarine;
-  width: 100%;
-  height: 80px;
-  font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    background-color: aquamarine;
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
-.logo {
-  float: left;
-  color: blue;
-  padding: 5px;
-  margin: 10px;
-}
+  .logo {
+    float: left;
+    color: blue;
+    padding: 5px;
+    margin: 10px;
+  }
 
-.barra {
-  float: right;
-  padding: 35px;
-}
+  .barra {
+    float: right;
+    padding: 35px;
+  }
 
-.barra li {
-  list-style: none;
-  display: inline-block;
-  text-transform: capitalize;
-}
+  .barra li {
+    list-style: none;
+    display: inline-block;
+    text-transform: capitalize;
+  }
 
-.barra a {
-  text-decoration: none;
-}
+  .barra a {
+    text-decoration: none;
+  }
 
-.barra a:hover {
-  color: gray;
-} */
-
+  .barra a:hover {
+    color: gray;
+  } */
 /* .irainicio {
-  display: flex;
-  justify-content: right;
-  padding: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
-
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } */
 /* .bproductos{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 24px;
-  background-image: url("./imagenes/Fondo-de-pantalla-en-blanco-1920x1200-en-HD-Android.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-  padding: 35px;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    background-image: url("./imagenes/Fondo-de-pantalla-en-blanco-1920x1200-en-HD-Android.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 35px;
+  }
 
-.bproductos li {
-  list-style: none;
-  display: inline-block;
-}
+  .bproductos li {
+    list-style: none;
+    display: inline-block;
+  }
 
-.bproductos a {
-  text-decoration: none;
-  margin: 35px;
-}
+  .bproductos a {
+    text-decoration: none;
+    margin: 35px;
+  }
 
-.bproductos a:hover {
-  color: aqua;
-} */
-
+  .bproductos a:hover {
+    color: aqua;
+  } */
 .quienessomos {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url("./imagenes/Fondo-de-pantalla-en-blanco-1920x1200-en-HD-Android.jpg");
@@ -108,7 +105,6 @@ html {
   height: 100vh;
   width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
 }
 
 main {
@@ -177,18 +173,16 @@ footer {
 }
 
 /* .container {
-  display: flex;
-  justify-content: center;
-  margin-left: 140px;
-  height: 30%;
-  width: 80%;
-  border: 2px solid black;
-} */
-
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    height: 30%;
+    width: 80%;
+    border: 2px solid black;
+  } */
 /* .container img {
-  object-fit: cover;
-} */
-
+    object-fit: cover;
+  } */
 .jumbotron {
   background-image: url("imagenes/mobile-2262928_1280.jpg");
   background-position: center;
@@ -272,7 +266,7 @@ footer {
 
 .nright p {
   color: black;
-  text-align: center; 
+  text-align: center;
   text-shadow: 0 0 5px white;
 }
 
@@ -305,6 +299,23 @@ footer {
 
 .nleft1 p {
   color: white;
-  text-align: center; 
+  text-align: center;
   text-shadow: 0 0 5px black;
 }
+
+.sec {
+  background-color: blue;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px;
+}
+
+.cont {
+  height: 600px;
+  width: 100%;
+  background-color: gray;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -309,7 +309,17 @@ footer {
     text-shadow: 0 0 5px black;
 }
 
-.marcas {
-    display: flex;
-    justify-content: center;
+.sec {
+    background-color: blue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+}
+
+.cont {
+    height: 600px;
+    width: 100%;
+    background-color: gray;
 }
