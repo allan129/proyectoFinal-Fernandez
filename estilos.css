@@ -138,16 +138,6 @@ main {
   width: 100%;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  padding: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: capitalize;
-}
-
 .redes {
   font-size: 50px;
   margin-bottom: 20px;
@@ -341,6 +331,21 @@ footer {
   line-height: 120px;
 }
 
+.galeria-productos {
+  width: 100%;
+  height: 400px;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  padding: 20px;
+}
+
+.item-productos {
+  width: 100%;
+  height: 200px;
+  background-color: aquamarine;
+  border: 5px solid white;
+}
+
 .galeria-productos h2 {
   background-color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -348,6 +353,16 @@ footer {
   text-align: center;
   color: blue;
   padding: 15px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=estilos.css.map */
