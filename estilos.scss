@@ -101,6 +101,15 @@ html {
     text-shadow: 0 0 5px white;
 }
 
+.jumbotron-productos {
+    background-image: url("imagenes/shopping-4538982_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    color: blue;
+    text-shadow: 0 0 5px white;
+}
+
 .contacto {
     background-image: url("./imagenes/Fondo-de-pantalla-en-blanco-1920x1200-en-HD-Android.jpg");
     background-size: cover;
@@ -205,6 +214,7 @@ footer {
     text-align: center;
     color: blue;
     padding: 15px;
+    margin-bottom: 0;
 }
 
 .navbar span {
@@ -316,10 +326,23 @@ footer {
     text-transform: uppercase;
     color: white;
     padding: 20px;
+    margin-bottom: 0;
 }
 
 .cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     height: 600px;
     width: 100%;
     background-color: gray;
+}
+
+.item {
+    height: 120px;
+    width: 120px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 120px;
 }
