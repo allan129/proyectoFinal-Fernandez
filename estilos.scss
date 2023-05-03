@@ -142,8 +142,6 @@ main {
     width: 100%;
 }
 
-
-
 .redes {
     font-size: 50px;
     margin-bottom: 20px;
@@ -341,15 +339,16 @@ main {
 
 .galeria-productos {
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     padding: 20px;
+    margin-top: 0;
 }
 
 .item-productos {
     width: 100%;
-    height: 200px;
+    height: 500px;
     background-color: aquamarine;
     border: 5px solid white;
 }
@@ -362,6 +361,31 @@ main {
     color: blue;
     padding: 15px;
 }
+
+.item9 {
+    background-image: url("imagenes/Galaxy-S23-Ultra.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item10 {
+    background-image: url("imagenes/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.large.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item11 {
+    background-image: url("imagenes/motorola-g20-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item12 {
+    background-image: url("imagenes/xiaomi-9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 footer {
     background-color: black;
     color: white;
