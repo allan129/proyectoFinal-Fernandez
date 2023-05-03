@@ -4,78 +4,26 @@
     box-sizing: border-box;
 }
 
+@mixin imagen-galeria {
+    background-size: cover;
+    background-position: center;
+}
+
+.estilo-jumbotron {
+    height: 350px;
+    color: blue;
+    text-shadow: 0 0 5px white;
+}
+
+$redes: (
+	twitter: #51aff8,
+	facebook: #003797,
+	instagram: rgb(243, 11, 193)
+);
+
 html {
     scroll-behavior: smooth;
 }
-
-/* header {
-    background-color: aquamarine;
-    width: 100%;
-    height: 80px;
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .logo {
-    float: left;
-    color: blue;
-    padding: 5px;
-    margin: 10px;
-  }
-  
-  .barra {
-    float: right;
-    padding: 35px;
-  }
-  
-  .barra li {
-    list-style: none;
-    display: inline-block;
-    text-transform: capitalize;
-  }
-  
-  .barra a {
-    text-decoration: none;
-  }
-  
-  .barra a:hover {
-    color: gray;
-  } */
-
-/* .irainicio {
-    display: flex;
-    justify-content: right;
-    padding: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  } */
-
-/* .bproductos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
-    background-image: url("./imagenes/Fondo-de-pantalla-en-blanco-1920x1200-en-HD-Android.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    padding: 35px;
-  }
-  
-  .bproductos li {
-    list-style: none;
-    display: inline-block;
-  }
-  
-  .bproductos a {
-    text-decoration: none;
-    margin: 35px;
-  }
-  
-  .bproductos a:hover {
-    color: aqua;
-  } */
 
 .quienessomos {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -96,18 +44,14 @@ html {
     background-image: url("imagenes/problem-3303403_1280.png");
     background-size: cover;
     background-position: center;
-    height: 350px;
-    color: blue;
-    text-shadow: 0 0 5px white;
+    @extend .estilo-jumbotron;
 }
 
 .jumbotron-productos {
     background-image: url("imagenes/shopping-4538982_1280.jpg");
     background-size: cover;
     background-position: center;
-    height: 350px;
-    color: blue;
-    text-shadow: 0 0 5px white;
+    @extend .estilo-jumbotron;
 }
 
 .contacto {
@@ -149,15 +93,15 @@ main {
 }
 
 .fa-facebook {
-    color: blue;
+    color: map-get($redes, facebook)
 }
 
 .fa-twitter {
-    color: rgb(77, 77, 238);
+    color: map-get($redes, twitter);
 }
 
 .fa-instagram {
-    color: blueviolet;
+    color: map-get($redes, instagram);
 }
 
 .subir {
@@ -335,26 +279,22 @@ main {
 
 .item1 {
     background-image: url("imagenes/samsung-logo.jpg");
-    background-size: cover;
-    background-position: center;
+    @include imagen-galeria;
 }
 
 .item2 {
     background-image: url("imagenes/iPhone-logo.jpg");
-    background-size: cover;
-    background-position: center;
+    @include imagen-galeria;
 }
 
 .item3 {
     background-image: url("imagenes/motorola_logo.jpg");
-    background-size: cover;
-    background-position: center;
+    @include imagen-galeria;
 }
 
 .item4 {
     background-image: url("imagenes/xiaomi-logo.jpg");
-    background-size: cover;
-    background-position: center;
+    @include imagen-galeria;
 }
 
 .galeria-productos {
@@ -385,26 +325,22 @@ main {
 
 .item9 {
     background-image: url("imagenes/Galaxy-S23-Ultra.jpg");
-    background-size: cover;
-    background-position: center;
+    @include imagen-galeria;
 }
 
 .item10 {
     background-image: url("imagenes/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.large.jpg");
-    background-size: cover;
-    background-position: center;
+    @include imagen-galeria;
 }
 
 .item11 {
     background-image: url("imagenes/motorola-g20-image.jpg");
-    background-size: cover;
-    background-position: center;
+    @include imagen-galeria;
 }
 
 .item12 {
     background-image: url("imagenes/xiaomi-9.jpg");
-    background-size: cover;
-    background-position: center;
+    @include imagen-galeria;
 }
 
 footer {
