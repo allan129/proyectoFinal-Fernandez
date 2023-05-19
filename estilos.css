@@ -41,15 +41,6 @@ html {
   background-position: center;
 }
 
-.contacto {
-  background-image: url("./imagenes/Fondo-de-pantalla-en-blanco-1920x1200-en-HD-Android.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 main {
   height: 100vh;
   width: 100%;
@@ -174,7 +165,7 @@ main {
 .nosotros {
   width: 100%;
   height: auto;
-  background-color: grey;
+  background-color: white;
 }
 
 .nleft {
@@ -207,7 +198,7 @@ main {
 .nosotros2 {
   width: 100%;
   height: auto;
-  background-color: grey;
+  background-color: white;
 }
 
 .nright1 {
@@ -354,10 +345,18 @@ footer {
   margin-bottom: 0;
 }
 
+.h2contacto {
+  background-color: black;
+  color: blue;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 0;
+}
+
 .contacto {
   width: 100%;
   height: auto;
-  background-color: grey;
+  background-color: white;
 }
 
 .leftemail {
@@ -372,6 +371,32 @@ footer {
 }
 
 .leftemail p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  text-shadow: 0 0 5px white;
+  padding-top: 30px;
+}
+
+.contacto2 {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.rightwsp {
+  height: 200px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.rightwsp i {
+  text-align: center;
+  font-size: 50px;
+}
+
+.rightwsp p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   text-align: center;
   text-shadow: 0 0 5px white;
