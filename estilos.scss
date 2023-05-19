@@ -352,3 +352,38 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: capitalize;
 }
+
+.jumbotron-contacto {
+    background-image: url("imagenes/contact-us-2993000_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color: blue;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 0;
+}
+
+.contacto {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+
+.leftemail {
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.leftemail i {
+    text-align: center;
+    font-size: 50px;
+}
+
+.leftemail p {
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    padding-top: 30px;
+}
+
