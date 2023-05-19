@@ -96,17 +96,6 @@ main {
   background-color: gray;
 }
 
-/* .container {
-    display: flex;
-    justify-content: center;
-    margin-left: 140px;
-    height: 30%;
-    width: 80%;
-    border: 2px solid black;
-  } */
-/* .container img {
-    object-fit: cover;
-  } */
 .jumbotron {
   background-image: url("imagenes/mobile-2262928_1280.jpg");
   background-position: center;
@@ -339,6 +328,7 @@ footer {
   background-image: url("imagenes/contact-us-2993000_1280.jpg");
   background-position: center;
   background-size: cover;
+  object-fit: cover;
   height: 400px;
   color: blue;
   text-shadow: 0 0 5px black;
@@ -356,7 +346,6 @@ footer {
 .contacto {
   width: 100%;
   height: auto;
-  background-color: white;
 }
 
 .leftemail {
@@ -381,7 +370,6 @@ footer {
 .contacto2 {
   width: 100%;
   height: auto;
-  background-color: white;
 }
 
 .rightwsp {
@@ -396,6 +384,30 @@ footer {
 }
 
 .rightwsp p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  text-shadow: 0 0 5px white;
+  padding-top: 30px;
+}
+
+.contacto3 {
+  width: 100%;
+  height: auto;
+}
+
+.leftredes {
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.leftredes i {
+  text-align: center;
+  font-size: 50px;
+}
+
+.leftredes p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   text-align: center;
